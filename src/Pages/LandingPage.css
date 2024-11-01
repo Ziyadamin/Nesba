@@ -1,0 +1,345 @@
+/* Font definitions */
+@font-face {
+    font-family: 'Approach Mono';
+    src: url('../Approach Mono SemiBold.otf') format('opentype');
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Levenim MT';
+    src: url('../levenim-mt-2.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Ebisu Bold';
+    src: url('../Ebisu Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: lighter;
+}
+
+/* Container styling */
+.LandingPage {
+    display: flex;
+    flex-direction: column;
+}
+
+.NesbaInfo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 10px 0;
+    background: linear-gradient(90deg, #ffffff 40%, #a785d8 70%, #9971C1 90%);
+    height: 680px;
+}
+
+.Content1 {
+    flex: 1;
+    max-width: 100%;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 70px;
+}
+
+.Content1 h1 {
+    margin-bottom: 40px;
+}
+
+.Content1 p {
+    font-family: 'Levenim MT', sans-serif;
+    font-size: larger;
+    margin-bottom: 20px;
+}
+
+.coinpic {
+    width: 900px;
+    height: auto;
+    margin-left: 150px;
+    margin-top: -150px;
+}
+
+h1 {
+    font-family: 'Approach Mono', monospace;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 0.9;
+}
+
+.Text {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+h3 {
+    font-family: 'Ebisu Bold', sans-serif;
+    color: #949494;
+    font-size: 26px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    line-height: 1;
+    font-size: 32px;
+}
+
+.pics {
+    display: flex;
+    align-items: center;  /* Center vertically within each half */
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh;         /* Full viewport height */
+    background-color: white;
+    height: fit-content;
+    margin-top: 30px;              /* Equal width for text */
+
+}
+
+.TextforPics {
+    flex: 1; 
+    text-align: left;    /* Center text in the left part */
+    padding: 20px;
+    margin-left: 80px;
+    font-family: Urbanist, "Urbanist Placeholder", sans-serif;
+}
+
+.TextforPics h3 {
+    color: #7b43aa;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.TextforPics h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+    font-family: Urbanist, "Urbanist Placeholder", sans-serif;
+    line-height: 1;
+
+}
+
+.TextforPics p {
+    font-size: 20px;
+    color: #949494;
+    line-height: 1.5;
+
+}
+
+
+
+.pics2 {
+    display: flex;
+    align-items: center;  /* Center vertically within each half */
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh;         /* Full viewport height */
+    background-color: white;
+    height: fit-content;
+    margin-top: 30px;              /* Equal width for text */
+
+}
+
+.TextforPics2 {
+    flex: 1; 
+    text-align: left;    /* Center text in the left part */
+    padding: 20px;
+    margin-left: 80px;
+    font-family: Urbanist, "Urbanist Placeholder", sans-serif;
+}
+
+.TextforPics2 h3 {
+    color: #7b43aa;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.TextforPics2 h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+    font-family: Urbanist, "Urbanist Placeholder", sans-serif;
+    line-height: 1;
+
+}
+
+.TextforPics2 p {
+    font-size: 20px;
+    color: #949494;
+    line-height: 1.5;
+
+}
+
+
+.pics3 {
+    display: flex;
+    align-items: center;  /* Center vertically within each half */
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh;         /* Full viewport height */
+    background-color: white;
+    height: fit-content;
+    margin-top: 30px;              /* Equal width for text */
+
+}
+
+.TextforPics3 {
+    flex: 1; 
+    text-align: left;    /* Center text in the left part */
+    padding: 20px;
+    margin-left: 80px;
+    font-family: Urbanist, "Urbanist Placeholder", sans-serif;
+}
+
+.TextforPics3 h3 {
+    color: #7b43aa;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.TextforPics3 h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+    font-family: Urbanist, "Urbanist Placeholder", sans-serif;
+    line-height: 1;
+
+}
+
+.TextforPics3 p {
+    font-size: 20px;
+    color: #949494;
+    line-height: 1.5;
+
+}
+
+
+.pics4 {
+    display: flex;
+    align-items: center;  /* Center vertically within each half */
+    justify-content: space-between;
+    padding: 20px;
+    height: 100vh;         /* Full viewport height */
+    background-color: white;
+    height: fit-content;
+    margin-top: 30px;              /* Equal width for text */
+
+}
+
+.TextforPics4 {
+    flex: 1; 
+    text-align: left;    /* Center text in the left part */
+    padding: 20px;
+    margin-left: 80px;
+    font-family: Urbanist, "Urbanist Placeholder", sans-serif;
+}
+
+.TextforPics4 h3 {
+    color: #7b43aa;
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.TextforPics4 h1 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+    font-family: Urbanist, "Urbanist Placeholder", sans-serif;
+    line-height: 1;
+
+}
+
+.TextforPics4 p {
+    font-size: 20px;
+    color: #949494;
+    line-height: 1.5;
+
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 600px; /* Optional: control the width */
+    gap: 15px; /* Optional: add space between form elements */
+}
+
+.form h1 {
+    font-family: Urbanist, "Urbanist Placeholder", sans-serif;
+    font-size: 36px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.form p{
+    font-family: Urbanist, "Urbanist Placeholder", sans-serif;
+    font-size: 26px;
+    color: #949494;
+    font-weight: 700;
+}
+
+.form Button {
+    width: 100%;
+    margin-top:40px;
+    max-width: 300px; /* Optional: to control input and button width */
+}
+
+.cycle-container {
+    position: relative;
+    padding: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .cycle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 600;
+    font-family: Urbanist, "Urbanist Placeholder", sans-serif;
+    font-size: 26px;
+    color: #949494;
+    font-weight: 700;
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+  
+  .dot {
+    height: 26px;
+    width: 26px;
+    background-color: purple;
+    border-radius: 50%;
+  }
+  
+  .text {
+    font-weight: 700;
+    font-size: 46px;
+    color: black;
+    font-family: Urbanist, "Urbanist Placeholder", sans-serif;
+  }
+  

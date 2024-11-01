@@ -1,0 +1,22 @@
+.image-placeholder {
+    flex: 1;                          /* Keep equal width for the image container */
+    display: flex;                    /* Use flexbox layout */
+    align-items: flex-end;            /* Align image to the bottom of the container */
+    justify-content: center;           /* Center image horizontally within container */
+    padding: 0;                       /* Remove padding around the container */
+    background-color: #7b43aa;        /* Set the background color for the container */
+    border-radius: 20px;              /* Optional: Add rounded corners to the container */
+    overflow: hidden;                  /* Prevent image overflow */
+    height: 400px;                    /* Set the height of the container */
+    margin-right: 50px;           /* Center container horizontally */
+    width: 200px;                  /* Set a fixed width for the container */
+}
+
+.custom-class {
+    width: 50%;                       /* Increase image width to take more space */
+    height: auto;                     /* Maintain aspect ratio */
+    max-height: 90%;                  /* Limit the maximum height of the image */
+    border-radius: 0;                 /* Add no rounded corners to the image */
+    padding: 0;                       /* Remove any padding around the image */
+    margin: 0;                        /* Ensure no margins around the image */
+}

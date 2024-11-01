@@ -1,0 +1,44 @@
+{
+    "header": {
+      "title": "Invest in Real Estate with as little as 5,000 EGP",
+      "description": "Nesba is the first fractional real estate solution coming to Egypt allowing you to invest in real estate through property fractionalization.",
+      "waitlistPrompt": "Join our waitlist to get exclusive access to our initial offerings.",
+      "waitlistButton": "Join the Waitlist!"
+    },
+    "howItWorks": {
+      "title": "How does it work?",
+      "subtitle": "Build your real estate investment portfolio with a few clicks"
+    },
+    "sections": {
+      "browse": {
+        "title": "Browse",
+        "heading": "Access first class real estate with different developers",
+        "description": "Explore our collection of properties, vetted by real estate experts."
+      },
+      "invest": {
+        "title": "Invest",
+        "heading": "Claim the nesba you love, from only 5000 EGP",
+        "description": "Buy as many shares as you want in your favourite property with no hidden fees, directly in our platform."
+      },
+      "earn": {
+        "title": "Earn",
+        "heading": "Enjoy as your wealth grows through capital appreciation",
+        "description": "Relax and watch as your shares increase in price and provide you with currency hedged ROI.",
+        "extraNote": "Paid directly to your NESBA wallet"
+      },
+      "sell": {
+        "title": "Sell",
+        "heading": "Liquidate whenever you need to",
+        "description": "Exit your investments through our secondary markets or during our final Exit for each property at a set date.",
+        "extraNote": "Paid directly to your NESBA wallet"
+      }
+    },
+    "form": {
+      "prompt": "Join the Waitlist",
+      "heading": "Get notified as soon as we launch",
+      "nameLabel": "Name",
+      "phoneLabel": "Phone Number",
+      "submitButton": "Submit"
+    }
+  }
+  

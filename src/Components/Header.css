@@ -1,0 +1,55 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+/* Header styling */
+.Header-bar {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;            
+    padding: 10px;                 
+    border: 1px solid black;       
+}
+
+/* Logo styling */
+.logo { 
+    height: 65px;           
+    width: auto;    
+    margin-left: 40px;       
+}
+
+/* Dropdown container */
+.Dropdown {
+    margin-right: 40px;           
+    display: flex;                
+    align-items: center;          
+    height: 60%;  
+}
+
+/* Language selection buttons styling */
+.language-buttons {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+}
+
+.language-buttons button {
+    background: transparent; /* Transparent background */
+    border: none; /* No border for buttons */
+    color: grey; /* Grey font color */
+    font-size: 16px; /* Adjust as needed */
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 5px 10px; /* Padding around text */
+    transition: color 0.3s, font-weight 0.3s; /* Transition for hover effects */
+}
+
+.language-buttons button:hover {
+    color: black; /* Darker color on hover */
+}
+
+.language-buttons .active {
+    font-weight: bold; /* Bold font for the active button */
+    color: black; /* Darker color for the selected button */
+}
