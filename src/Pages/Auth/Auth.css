@@ -1,0 +1,78 @@
+/* Fonts Definitions */
+
+@font-face {
+    font-family: 'Neue Machina';
+    src: url('/public/fonts/NeueMachina/NeueMachina-Ultrabold.otf') format('opentype');
+}
+
+.page-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+
+.page-container .logo {
+    position: fixed;
+    top: 13px;
+    left: 15px;
+    width: 163px;
+    height: 93px;
+}
+
+.page-container .colored-container {
+    flex: 1;
+    background-image: linear-gradient(#7B43AA, #C4F1F5);
+    display: grid;
+    place-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.page-container .colored-container p {
+    color: #ffff;
+    font-family: 'Neue Machina', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+}
+
+.page-container .white-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.white-container h2 {
+    font-family: 'Neue Machina', sans-serif;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #7B43AA;
+}
+
+.white-container .logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+    margin-bottom: 44px;
+}
+
+.white-container .logo-container .logo-circular-container {
+    border: 1px solid #74747461;
+    border-radius: 50%;
+    width: 46px;
+    height: 46px;
+    display: grid;
+    place-items: center;
+}
+
+.white-container .logo-container .logo-circular-container img {
+    cursor: pointer;
+}
