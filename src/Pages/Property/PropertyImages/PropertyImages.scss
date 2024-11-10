@@ -1,0 +1,116 @@
+.general-grid-container {
+    margin-top: 52px;
+    margin-bottom: 24px;
+    height: 436px;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+    
+    .see-all {
+        background-color: #fff;
+        display: flex;
+        gap: 4px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 60px;
+        padding: 8px 16px;
+        position: absolute;
+        right: 8px;
+        bottom: -16px;
+        border: 1px solid #0000001F;
+        
+        span, svg {
+            transition: opacity 0.3s;
+        }
+        
+        &:hover {
+            span, svg {
+                opacity: 0.7;
+            }
+        }
+    }
+}
+
+.few-images-container {
+    width: 100%;
+    border-radius: 19px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 19px;
+    }
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 8px;
+
+    .item {
+        width: 100%;
+        border-radius: 19px;
+
+        &:first-child {
+            grid-column: 1 / 3;
+            grid-row: 1 / 3;
+        }
+
+        img {
+            border-radius: 19px;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;            
+        }
+    }
+}
+
+.img-carousel {
+    width: 100%;
+    height: 320px;
+
+    .slide {
+        width: 100%;
+        height: 320px;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    .control-dots {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+
+        .ind {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            border: 1px solid #FFF;
+            z-index: 100;
+            background-color: transparent;
+            cursor: pointer;
+        
+            &.active {
+                background-color: #FFF;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .img-carousel {
+        height: 237px;
+
+        .slide {
+            height: 237px;
+        }
+    }
+}

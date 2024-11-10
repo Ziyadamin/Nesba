@@ -1,0 +1,18 @@
+.date-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 10px;
+    color: white;
+    background-color: #7B43AA;
+    font-weight: 700;
+    width: 75%;
+    padding: 2px 16px;
+    border-radius: 10px;
+    margin-top: 15px;
+
+    svg {
+        font-size: 18px;
+        color: #C4F1F5;
+    }
+}

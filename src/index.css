@@ -5,8 +5,10 @@
     list-style: none;
     text-decoration: none;
     outline: none;
+    scroll-behavior: smooth;
 }
 
 body, html {
     height: 100%;
+    font-family: "Urbanist", sans-serif;
 }
