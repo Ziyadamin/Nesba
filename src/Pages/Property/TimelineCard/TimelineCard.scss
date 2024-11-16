@@ -1,0 +1,110 @@
+.timeline-container {
+    // position: relative;
+    padding-left: 3.75rem;
+    
+
+    &-header {
+        font-size: 18px;
+        font-weight: 550;
+        margin-bottom: 6px;
+    }
+
+    &-date {
+        font-size: 15px;
+        color: #747474;
+        margin-bottom: 6px;
+    }
+
+    &-description {
+        font-size: 15px;
+    }
+
+    li {
+        position: relative;
+        margin-bottom: 48px;
+
+        &:last-child {
+            margin-bottom: 10px;
+            &::after {
+                display: none;
+            }
+        }
+
+        &::after {
+            content: "";
+            width: 1.5px;
+            height: calc(100% + 48px);
+            background-color: #7B43AA;
+            position: absolute;
+            top: 30%;
+            left: -2.8rem;
+        }
+
+        .outer-circle {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            position: absolute;
+            left: -3.5rem;
+            z-index: 2;
+            display: grid;
+            place-items: center;
+
+            .inner-circle {
+                width: 11px;
+                height: 11px;
+                border-radius: 50%;
+                z-index: 3;
+            }
+        }
+
+    }
+
+    .done {
+
+        &::after {
+            top: 30%;
+        }
+
+
+        svg {
+            font-size: 24px;
+            color: #7B43AA;
+            position: absolute;
+            left: -3.5rem;
+            z-index: 2;
+        }
+    }
+
+    .active {
+        .outer-circle {
+            border: 1.5px solid #7B43AA;
+            background-color: #fff;
+            animation: glow 2.5s linear 1s infinite;
+        }
+        .inner-circle {
+            background-color: #7B43AA;
+        }
+    }
+
+    .non-active {
+        .outer-circle {
+            background-color: #B3B3B3;        
+        }
+        .inner-circle {
+            background-color: #747474;
+        }
+    }
+}
+
+@keyframes glow {
+    0% {
+      box-shadow: 0 0 0px 1px rgba(123, 67, 170, 0.6);  /* Small spread */
+    }
+    50% {
+      box-shadow: 0 0 0px 4px rgba(123, 67, 170, 0.6);  /* Larger spread */
+    }
+    100% {
+      box-shadow: 0 0 0px 1px rgba(123, 67, 170, 0.6);  /* Small spread again */
+    }
+  }

@@ -4,15 +4,137 @@
     gap: 10px;
     font-size: 10px;
     color: white;
+    background-color: #884cb9;
     background-color: #7B43AA;
     font-weight: 700;
     width: 75%;
     padding: 2px 16px;
     border-radius: 10px;
     margin-top: 15px;
+    margin-bottom: 26px;
 
     svg {
         font-size: 18px;
         color: #C4F1F5;
     }
+}
+
+.slider-container {
+    margin-bottom: 16px;
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    &-grey {
+        background-color: #D9D9D95C;
+        border-radius: 10px;
+        padding: 12px 10px;
+        padding-left: 14px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &-top {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 4px;
+
+
+            .slider-btn {
+                background-color: #fff;
+                border-radius: 4px;
+                border: 1px solid #0000000F;
+                cursor: pointer;
+                transition: all 0.3s;
+                padding: 2px 4px;
+                
+
+                &:hover {
+                    background-color: hsl(0, 0%, 98%);
+                    color: white;
+                }
+
+                svg {
+                    color: #7B43AA;
+                    font-size: 10px;
+                }
+            }
+
+            .disabled {
+                background-color: #D9D9D95C;
+                cursor: not-allowed;
+                svg {
+                    color: grey;
+                }
+
+                &:hover {
+                    background-color: #D9D9D95C;
+                }
+            }
+        }
+
+        &-bottom {
+            font-size: 12px;
+        }
+    }
+
+}
+
+.waitlist-info {
+
+    .row-container {
+        margin-bottom: 8px;
+        font-size: 12px;
+
+        .row {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            line-height: 23px;
+
+            .sub-info {
+                margin-left: 12px;
+            }
+
+            .purple {
+                font-weight: 700;
+                color: #7B43AA;
+            }
+
+            .dark {
+                font-weight: 700;
+                color: #747474;
+            }
+
+        }
+        .link {
+            display: flex;
+            align-items: center;
+            color: #7B43AA;
+            cursor: pointer;
+
+            span {
+                text-decoration: underline;
+            }
+            
+            svg {
+                font-size: 14px;
+                transform: translateY(1px);
+            }
+        }
+    }
+
+}
+
+.button-container {
+    margin-top: 26px;
+    padding: 0 6px;
 }
